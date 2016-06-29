@@ -3,4 +3,4 @@ This is week 12 of 12 in my [12 in 12 Design to Code Challenge](https://www.yout
 
 ## The Design
 
-![Client Communication App Design](/images/client-communication-app.png?raw=true "Client Communication App Design")
+![Client Communication App Design](/images/client-collaboration-app.png?raw=true "Client Communication App Design")
