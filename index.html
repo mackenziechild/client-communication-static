@@ -1,6 +1,6 @@
 <html>
   <head>
-    <title>Starter Project</title>
+    <title>Client Communication App</title>
 
     <!-- Normalize HTML5 Reset -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.min.css">
@@ -14,7 +14,166 @@
 
   <body>
 
-    <!-- global.js Link -->
-    <script src="js/global.js"></script>
+    <div id="sidebar">
+      <img src="/images/menu.svg" alt="Menu" class="menu">
+      <h1 class="title">Pixel Perfect Design Resources</h1>
+      <div class="info">
+        <div class="client">
+          <p class="input">Jane Doe</p>
+          <p class="description">Client's Name</p>
+
+          <p class="input">hey@example.com</p>
+          <p class="description">Client's Email</p>
+
+          <p class="input">123-555-1234</p>
+          <p class="description">Client's Phone</p>
+        </div>
+        <hr>
+        <div class="project">
+          <p class="input">$12,500</p>
+          <p class="description">Project Budget</p>
+
+          <p class="input">June 23rd</p>
+          <p class="description">Project Due Date</p>
+        </div>
+        <p>View Full Project Brief</p>
+      </div>
+    </div>
+
+    <div id="chat">
+      <div class="bubble attachment">
+        <img src="/images/image_icon.svg" class="icon">
+        <div class="preview">
+          <img src="/images/pixel-perfect-design-resources.png" />
+        </div>
+        <div class="content">
+          <h2 class="title">Pixel Perfect Design Resources V2</h2>
+          <div class="description">Neutra literally flexitarian farm-to-table try-hard. Cliche tilde chia meh, cornhole fap try-hard tofu drinking vinegar jean shorts bitters. Tumblr keffiyeh intelligentsia, butcher XOXO kogi gentrify viral yuccie deep v roof party 3 wolf moon asymmetrical paleo organic.</div>
+          <div class="buttons_wrapper">
+            <a href="#" class="button button_blue">View Full Size</a>
+            <a href="#" class="button button_download">Download</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="bubble">
+        <div class="content">
+          <div class="avatar">
+            <img src="/images/avatar.png">
+          </div>
+          <p class="copy">Hey Jane, you can see above I have attached a pdf of the first go at this design. Can you take a look and let me know what you think. </p>
+        </div>
+        <p class="time">10:28 AM</p>
+      </div>
+
+      <div class="bubble client">
+        <div class="content">
+          <div class="avatar">
+            <img src="/images/avatar_client.png">
+          </div>
+          <p class="copy">Hi Mackenzie! This is looking great! Can I see it with a different color other than that yellow?</p>
+        </div>
+        <p class="time">11:13 AM</p>
+      </div>
+
+      <div class="bubble">
+        <div class="content">
+          <div class="avatar">
+            <img src="/images/avatar.png">
+          </div>
+          <p class="copy">Yes, absolutely! What do you think about a green color instead?</p>
+        </div>
+        <p class="time">12:49 PM</p>
+      </div>
+
+      <div class="bubble attachment">
+        <img src="/images/image_icon.svg" class="icon">
+        <div class="preview">
+          <img src="/images/pixel-perfect-design-resources.png" />
+        </div>
+        <div class="content">
+          <h2 class="title">Pixel Perfect Design Resources V2</h2>
+          <div class="description">Neutra literally flexitarian farm-to-table try-hard. Cliche tilde chia meh, cornhole fap try-hard tofu drinking vinegar jean shorts bitters. Tumblr keffiyeh intelligentsia, butcher XOXO kogi gentrify viral yuccie deep v roof party 3 wolf moon asymmetrical paleo organic.</div>
+          <div class="buttons_wrapper">
+            <a href="#" class="button button_blue">View Full Size</a>
+            <a href="#" class="button button_download">Download</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="bubble">
+        <div class="content">
+          <div class="avatar">
+            <img src="/images/avatar.png">
+          </div>
+          <p class="copy">Hey Jane, you can see above I have attached a pdf of the first go at this design. Can you take a look and let me know what you think. </p>
+        </div>
+        <p class="time">10:28 AM</p>
+      </div>
+
+      <div class="bubble client">
+        <div class="content">
+          <div class="avatar">
+            <img src="/images/avatar_client.png">
+          </div>
+          <p class="copy">Hi Mackenzie! This is looking great! Can I see it with a different color other than that yellow?</p>
+        </div>
+        <p class="time">11:13 AM</p>
+      </div>
+
+      <div class="bubble">
+        <div class="content">
+          <div class="avatar">
+            <img src="/images/avatar.png">
+          </div>
+          <p class="copy">Yes, absolutely! What do you think about a green color instead?</p>
+        </div>
+        <p class="time">12:49 PM</p>
+      </div>
+
+      <div class="bubble">
+        <div class="content">
+          <div class="avatar">
+            <img src="/images/avatar.png">
+          </div>
+          <p class="copy">Hey Jane, you can see above I have attached a pdf of the first go at this design. Can you take a look and let me know what you think. </p>
+        </div>
+        <p class="time">10:28 AM</p>
+      </div>
+
+      <div class="bubble client">
+        <div class="content">
+          <div class="avatar">
+            <img src="/images/avatar_client.png">
+          </div>
+          <p class="copy">Hi Mackenzie! This is looking great! Can I see it with a different color other than that yellow?</p>
+        </div>
+        <p class="time">11:13 AM</p>
+      </div>
+
+      <div class="bubble">
+        <div class="content">
+          <div class="avatar">
+            <img src="/images/avatar.png">
+          </div>
+          <p class="copy">Yes, absolutely! What do you think about a green color instead?</p>
+        </div>
+        <p class="time">12:49 PM</p>
+      </div>
+
+      <div id="input">
+        <div class="avatar">
+          <img src="/images/avatar.png">
+        </div>
+        <textarea placeholder="Say Something"></textarea>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        $('#chat').scrollTop($('#chat')[0].scrollHeight);
+      });
+    </script>
   </body>
 </html>
