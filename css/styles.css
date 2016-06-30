@@ -116,7 +116,8 @@ html, body {
   #chat .bubble.attachment {
     width: 100%;
     position: relative;
-    margin: 5em 0; }
+    margin: 5em 0;
+    clear: both; }
     #chat .bubble.attachment .preview {
       width: 15em;
       border-radius: 0.5em;
